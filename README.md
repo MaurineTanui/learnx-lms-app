@@ -10,4 +10,15 @@ LearnX is a Flutter-based mobile Learning Management System (LMS) built as part 
 - Follow Flutter best practices including widget composition, state management, and named routing
 - Design a user-friendly UI that works seamlessly for both learners tracking their progress and admins managing programmes
 
+
 ## Navigation Flow
+
+Login
+  ├── [Learner] → Home / Dashboard
+  │                   ├── Programme Listing
+  │                   │       └── Programme Details → Enrol Now
+  │                   └── Profile
+  │
+  └── [Admin]  → Admin Dashboard
+                      ├── New Programme Form → Publish
+                      └── Announcement Composer → Send to All Learners
