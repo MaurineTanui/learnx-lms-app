@@ -1,0 +1,18 @@
+learnx-lms-app/
+  lib/
+    main.dart
+    screens/
+      login_screen.dart
+      home_screen.dart
+      programme_list_screen.dart
+      programme_detail_screen.dart
+    widgets/
+      course_card.dart
+      progress_bar.dart
+    models/
+      user.dart
+      programme.dart
+  assets/images/
+  test/
+  pubspec.yaml
+  README.md
